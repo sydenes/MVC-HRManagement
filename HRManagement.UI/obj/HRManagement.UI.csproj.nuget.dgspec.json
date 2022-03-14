@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {}
+    "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {
+    "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
         "projectName": "HRManagement.UI",
-        "projectPath": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
-        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\obj\\",
+        "projectPath": "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+        "packagesPath": "C:\\Users\\Muhsin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhsin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
