@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {}
+    "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {
+    "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+        "projectUniqueName": "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
         "projectName": "HRManagement.UI",
-        "projectPath": "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
-        "packagesPath": "C:\\Users\\Muhsin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhsin\\Desktop\\BilgeAdam\\HRManagement\\HRManagement.UI\\obj\\",
+        "projectPath": "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+        "packagesPath": "C:\\Users\\incia\\.nuget\\packages\\",
+        "outputPath": "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Muhsin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\incia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
