@@ -13,6 +13,7 @@ namespace HRManagement.UI.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        public int ahmet { get; set; }
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
