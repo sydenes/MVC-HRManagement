@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Enes\\.nuget\\packages\\": {}
+    "C:\\Users\\KAAN\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+      "projectUniqueName": "C:\\Users\\KAAN\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
       "projectName": "HRManagement.UI",
-      "projectPath": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
-      "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\obj\\",
+      "projectPath": "C:\\Users\\KAAN\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+      "packagesPath": "C:\\Users\\KAAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KAAN\\Desktop\\HRManagement\\HRManagement.UI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KAAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
