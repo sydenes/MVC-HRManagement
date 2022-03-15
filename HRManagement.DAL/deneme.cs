@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HRManagement.Model.Entities
+namespace HRManagement.DAL
 {
-    public class Employee
+    class deneme
     {
     }
 }
