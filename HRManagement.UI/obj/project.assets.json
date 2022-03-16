@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\incia\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Enes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
       "projectName": "HRManagement.UI",
-      "projectPath": "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
-      "packagesPath": "C:\\Users\\incia\\.nuget\\packages\\",
-      "outputPath": "D:\\Inci\\BilgeAdam\\BitirmeProjesi\\HRManagement\\HRManagement.UI\\obj\\",
+      "projectPath": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\HRManagement.UI.csproj",
+      "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Enes\\Desktop\\HRManagement\\HRManagement.UI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\incia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
