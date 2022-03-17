@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HRManagement.Core.DataAccess
 {
-    internal interface IRepository<TEntity>
+    public interface IRepository<TEntity>
         where TEntity:BaseEntity
     {
         TEntity Add(TEntity entity);

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HRManagement.Core.DataAccess.EntityFramework
 {
-    internal class EFRepositoryBase<TEntity, TContext> : IRepository<TEntity>
+    public class EFRepositoryBase<TEntity, TContext> : IRepository<TEntity>
         where TEntity : BaseEntity
         where TContext : DbContext
     {

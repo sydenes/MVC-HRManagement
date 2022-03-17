@@ -1,4 +1,5 @@
-﻿using HRManagement.DAL.Abstract;
+﻿using HRManagement.Core.DataAccess.EntityFramework;
+using HRManagement.DAL.Abstract;
 using HRManagement.DAL.Concrete.Context;
 using HRManagement.Model.Entities;
 using System;

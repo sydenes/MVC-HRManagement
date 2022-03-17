@@ -1,4 +1,5 @@
-﻿using HRManagement.Model.Entities;
+﻿using HRManagement.Core.DataAccess;
+using HRManagement.Model.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
