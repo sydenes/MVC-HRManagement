@@ -11,7 +11,7 @@ namespace HRManagement.DAL.Concrete.Repository
 {
     class EmployeeRepository:EFRepositoryBase<Employee, HRManagementDbContext>,IEmployeeDAL
     {
-        public EmployeeRepository()//HRManagementDbContext
+        public EmployeeRepository(HRManagementDbContext context) : base(context)
         {
 
         }
