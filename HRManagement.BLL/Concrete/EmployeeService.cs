@@ -16,5 +16,7 @@ namespace HRManagement.BLL.Concrete
         {
             this.employeeDAL = employeeDAL;
         }
+
+        
     }
 }
