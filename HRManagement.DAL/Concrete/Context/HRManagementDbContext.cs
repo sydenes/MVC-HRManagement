@@ -13,7 +13,7 @@ namespace HRManagement.DAL.Concrete.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=tcp:hrmanagement.database.windows.net,1433;Initial Catalog=HRManagement;Persist Security Info=False;User ID=HrManagement;Password=Giresun2861;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;");
+            optionsBuilder.UseSqlServer("Server={yourServer};Initial Catalog=HRManagement;Persist Security Info=False;User ID=HrManagement;Password={yourPassword}; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;");
         }
         public DbSet<Employee> Employees { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
