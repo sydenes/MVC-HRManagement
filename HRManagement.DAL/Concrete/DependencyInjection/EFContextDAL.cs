@@ -13,8 +13,9 @@ namespace HRManagement.DAL.Concrete.DependencyInjection
     {
         public static void AddScopeDAL(this IServiceCollection services)
         {
-            //services.AddDbContext...
+            //services.AddDbContext<HRManagementDbContext>();
             services.AddScoped<IEmployeeDAL, EmployeeRepository>();
+            //services.AddScoped<IPermissionDAL, PermissionRepository>();
         }
     }
 }
