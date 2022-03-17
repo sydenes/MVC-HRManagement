@@ -34,6 +34,9 @@ namespace HRManagement.DAL.Concrete.Context.EmployeeConfiguration
             builder.Property(a => a.Email)
                 .HasMaxLength(50)
                 .IsRequired();
+            builder.HasIndex(a => a.Email)
+                .IsUnique();
+
             builder.Property(a => a.Password)
                 .HasMaxLength(20)
                 .IsRequired();
@@ -44,7 +47,19 @@ namespace HRManagement.DAL.Concrete.Context.EmployeeConfiguration
                 .HasMaxLength(250)
                 .IsRequired();
 
-
+            builder.HasData(new Employee
+            {
+                ID = 1,
+                FirstName = "İnci",
+                LastName = "Adıyaman",
+                Email ="inci.adiyaman@hotmail.com",
+                Password ="123",
+                Address ="İstanbul",
+                BirthDay = Convert.ToDateTime(1995 / 15 / 03),
+                PhoneNumber ="05070698292",
+                Photo ="...",
+                StartDate= Convert.ToDateTime(2022 / 12 / 12),
+            });
         }
     }
 }
