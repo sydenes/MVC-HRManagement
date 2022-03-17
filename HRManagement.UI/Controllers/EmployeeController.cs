@@ -1,14 +1,25 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HRManagement.BLL.Abstract;
+using HRManagement.BLL.Concrete.ResultServiceBLL;
+using HRManagement.ViewModel.EmployeeViewModels;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HRManagement.UI.Controllers
 {
     public class EmployeeController : Controller
     {
+        IEmployeeBLL employeeBLL;
+
+        public EmployeeController(IEmployeeBLL employeeBLL)
+        {
+            this.employeeBLL = employeeBLL;
+        }
+
         // GET: EmployeeController
         public ActionResult Index(int id)
         {
-            return View();
+            ResultService<SingleEmployeeVM> employee = employeeBLL.GetEmployee(id);
+            return View(employee);
         }
 
         // GET: EmployeeController/Details/5
