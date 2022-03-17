@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HRManagement.BLL.Abstract
 {
-    public interface IBaseBLL<TEntity> where TEntity:BaseEntity
+    public interface IBaseBLL<TEntity> //where TEntity:BaseEntity
     {
     }
 }
