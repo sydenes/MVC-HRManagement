@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HRManagement.Core.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace HRManagement.Model.Entities
 {
-    public class Employee
+    public class Employee : BaseEntity
     {
         public Employee()
         {
-            //Permissions = new HashSet<Permission>();
+            Permissions = new HashSet<Permission>();
         }
-        public int ID { get; set; }
+       
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BirthDay { get; set; }
@@ -23,6 +24,6 @@ namespace HRManagement.Model.Entities
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
 
-        //public ICollection<Permission> Permissions { get; set; }
+        public ICollection<Permission> Permissions { get; set; }
     }
 }

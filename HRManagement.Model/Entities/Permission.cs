@@ -1,4 +1,5 @@
-﻿using HRManagement.Model.Enums;
+﻿using HRManagement.Core.Entity;
+using HRManagement.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace HRManagement.Model.Entities
 {
-    public class Permission
+    public class Permission :BaseEntity
     {
-        public int ID { get; set; }
+        
         public string Description { get; set; }
         public DateTime StartDate { get; set; } //izin başlangıcı
         public DateTime FinishDate { get; set; } //izin bitişi

@@ -43,6 +43,8 @@ namespace HRManagement.DAL.Concrete.Context.EmployeeConfiguration
             builder.Property(a => a.Address)
                 .HasMaxLength(250)
                 .IsRequired();
+
+
         }
     }
 }

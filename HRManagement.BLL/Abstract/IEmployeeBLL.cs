@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HRManagement.BLL.Abstract
 {
-    public interface IEmployeeBLL : IBaseBLL<Employee>
+    public interface IEmployeeBLL : 
     {
         ResultService<EmployeVM> GetEmployee(int id);
     }

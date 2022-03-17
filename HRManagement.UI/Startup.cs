@@ -1,3 +1,4 @@
+using HRManagement.BLL.Concrete.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,7 +24,7 @@ namespace HRManagement.UI
         {
             services.AddControllersWithViews();
 
-            //services.AddScopeBLL();
+            services.AddScopeBLL();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -41,6 +42,8 @@ namespace HRManagement.UI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

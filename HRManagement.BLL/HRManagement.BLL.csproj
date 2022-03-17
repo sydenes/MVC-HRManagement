@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HRManagement.DAL\HRManagement.DAL.csproj" />
+    <ProjectReference Include="..\HRManagement.Model\HRManagement.Model.csproj" />
+    <ProjectReference Include="..\HRManagement.ViewModel\HRManagement.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>
