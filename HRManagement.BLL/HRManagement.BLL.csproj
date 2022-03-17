@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\DependencyInjection\" />
-    <Folder Include="Concrete\ResultServiceBLL\" />
+    <ProjectReference Include="..\HRManagement.DAL\HRManagement.DAL.csproj" />
+    <ProjectReference Include="..\HRManagement.Model\HRManagement.Model.csproj" />
+    <ProjectReference Include="..\HRManagement.ViewModel\HRManagement.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

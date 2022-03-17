@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HRManagement.BLL\HRManagement.BLL.csproj" />
+    <ProjectReference Include="..\HRManagement.ViewModel\HRManagement.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>
