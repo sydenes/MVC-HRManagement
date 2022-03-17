@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HRManagement.DAL.Concrete.Context.EmployeeConfiguration
+namespace HRManagement.DAL.Concrete.Context.EntityTypeConfiguration
 {
     class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder.HasKey(a=>a.ID);
-            builder.Property(a => a.ID);
+            builder.HasKey(a => a.ID);
+            builder.Property(a => a.ID)
+                .UseIdentityColumn();
 
             builder.Property(a => a.FirstName)
                 .HasMaxLength(50)
@@ -46,19 +47,20 @@ namespace HRManagement.DAL.Concrete.Context.EmployeeConfiguration
             builder.Property(a => a.Address)
                 .HasMaxLength(250)
                 .IsRequired();
+            //DateTime a = new DateTime(1995, 15, 03);
 
             builder.HasData(new Employee
             {
-                ID = 1,
+                ID=1,
                 FirstName = "İnci",
                 LastName = "Adıyaman",
                 Email ="inci.adiyaman@hotmail.com",
                 Password ="123",
                 Address ="İstanbul",
-                BirthDay = Convert.ToDateTime(1995 / 15 / 03),
-                PhoneNumber ="05070698292",
+                BirthDay = DateTime.Now,
+                PhoneNumber ="055555555",
                 Photo ="...",
-                StartDate= Convert.ToDateTime(2022 / 12 / 12),
+                StartDate= DateTime.Now
             });
         }
     }
