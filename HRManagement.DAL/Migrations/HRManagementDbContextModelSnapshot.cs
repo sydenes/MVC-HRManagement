@@ -24,28 +24,42 @@ namespace HRManagement.DAL.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
+                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
+                        .HasAnnotation("SqlServer:IdentitySeed", 1)
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<DateTime>("BirthDay")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Password")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("Photo")
                         .HasColumnType("nvarchar(max)");
@@ -55,7 +69,25 @@ namespace HRManagement.DAL.Migrations
 
                     b.HasKey("ID");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Address = "İstanbul",
+                            BirthDay = new DateTime(2022, 3, 17, 17, 48, 41, 173, DateTimeKind.Local).AddTicks(5911),
+                            Email = "inci.adiyaman@hotmail.com",
+                            FirstName = "İnci",
+                            LastName = "Adıyaman",
+                            Password = "123",
+                            PhoneNumber = "055555555",
+                            Photo = "...",
+                            StartDate = new DateTime(2022, 3, 17, 17, 48, 41, 174, DateTimeKind.Local).AddTicks(5389)
+                        });
                 });
 
             modelBuilder.Entity("HRManagement.Model.Entities.Permission", b =>

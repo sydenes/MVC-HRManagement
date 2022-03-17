@@ -47,20 +47,19 @@ namespace HRManagement.DAL.Concrete.Context.EntityTypeConfiguration
             builder.Property(a => a.Address)
                 .HasMaxLength(250)
                 .IsRequired();
-            //DateTime a = new DateTime(1995, 15, 03);
 
             builder.HasData(new Employee
             {
-                ID=1,
+                ID = 1,
                 FirstName = "İnci",
                 LastName = "Adıyaman",
-                Email ="inci.adiyaman@hotmail.com",
-                Password ="123",
-                Address ="İstanbul",
+                Email = "inci.adiyaman@hotmail.com",
+                Password = "123",
+                Address = "İstanbul",
                 BirthDay = DateTime.Now,
-                PhoneNumber ="055555555",
-                Photo ="...",
-                StartDate= DateTime.Now
+                PhoneNumber = "055555555",
+                Photo = "...",
+                StartDate = DateTime.Now
             });
         }
     }
