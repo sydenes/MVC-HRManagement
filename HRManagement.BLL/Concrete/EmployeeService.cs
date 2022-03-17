@@ -1,6 +1,7 @@
 ﻿using HRManagement.BLL.Abstract;
 using HRManagement.BLL.Concrete.ResultServiceBLL;
 using HRManagement.DAL.Abstract;
+using HRManagement.ViewModel.EmployeeViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace HRManagement.BLL.Concrete
             this.employeeDAL = employeeDAL;
         }
 
-        public ResultService<EmployeVM> GetEmployee(int id)
+        public ResultService<SingleEmployeeVM> GetEmployee(int id)
         {
             throw new NotImplementedException();
         }

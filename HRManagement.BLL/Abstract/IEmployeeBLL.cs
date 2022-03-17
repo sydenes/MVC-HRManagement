@@ -1,5 +1,6 @@
 ﻿using HRManagement.BLL.Concrete.ResultServiceBLL;
 using HRManagement.Model.Entities;
+using HRManagement.ViewModel.EmployeeViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace HRManagement.BLL.Abstract
 {
     public interface IEmployeeBLL : IBaseBLL<Employee>
     {
-        ResultService<EmployeVM> GetEmployee(int id);
+        ResultService<SingleEmployeeVM> GetEmployee(int id);
     }
 }
