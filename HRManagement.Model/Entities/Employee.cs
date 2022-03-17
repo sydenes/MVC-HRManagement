@@ -23,6 +23,6 @@ namespace HRManagement.Model.Entities
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
 
-        //public ICollection<Permission> Permissions { get; set; }
+        public ICollection<Permission> Permissions { get; set; }
     }
 }
