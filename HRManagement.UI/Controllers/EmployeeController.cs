@@ -19,7 +19,7 @@ namespace HRManagement.UI.Controllers
         public ActionResult Index(int id)
         {
             ResultService<SingleEmployeeVM> employee = employeeBLL.GetEmployee(id);
-            return View(employee);
+            return View(employee.Data);
         }
 
         // GET: EmployeeController/Details/5
