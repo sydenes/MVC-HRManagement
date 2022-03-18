@@ -24,6 +24,10 @@ namespace HRManagement.BLL.Concrete
         {
             ResultService<SingleEmployeeVM> result = new ResultService<SingleEmployeeVM>();
             Employee emp=employeeDAL.Get(a => a.ID == id);
+            if (emp == null)
+            {
+                result.AddError("Null hatası", "id ile uyumlu employee yok");
+            }
             result.Data = new SingleEmployeeVM()
             {
                 Address = emp.Address,
