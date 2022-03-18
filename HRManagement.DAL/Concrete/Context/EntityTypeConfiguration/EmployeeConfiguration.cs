@@ -57,7 +57,7 @@ namespace HRManagement.DAL.Concrete.Context.EntityTypeConfiguration
                 Password = "123",
                 Address = "İstanbul",
                 BirthDay = DateTime.Now,
-                PhoneNumber = "055555555",
+                PhoneNumber = "0555555555",
                 Photo = "...",
                 StartDate = DateTime.Now
             });
